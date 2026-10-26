@@ -23,4 +23,9 @@ cor(gala)
 
 mod_sp <- lm(log(Species) ~ log(Area), data = gala)
 
-#Notes, add a note
+summary(mod_sp)
+
+plot(mod_sp)
+
+#Notes --------------------
+#add a note
